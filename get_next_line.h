@@ -7,3 +7,5 @@
 #include <fcntl.h>
 
 char	*get_next_line(int fd);
+size_t		ft_strlen(const char *str);
+char	*ft_strjoin(char str1, char *str2);
